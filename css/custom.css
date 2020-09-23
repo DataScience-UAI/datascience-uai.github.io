@@ -15,57 +15,6 @@ main>.container {
     padding-left: 15px;
 }
 
-code {
-    font-size: 80%;
-}
-
-.profile-img {
-    border-radius: 50%;
-    width: 70%;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.profile-card {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-}
-
-.footer-profile {
-    margin-bottom: 0px;
-}
-
-.profile-title {
-    padding-left: 10px;
-}
-
-.text-profile {
-    margin-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.text-profile-bottom {
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.container-main {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.text-social {
-    margin-bottom: 0px;
-}
-
-.text-social-bottom {
-    margin-bottom: 10px;
-}
-
 .card-text {
     text-align: justify;
 }
@@ -73,4 +22,40 @@ code {
 .card-footer {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.col-photo {
+    background-image: url("../img/uai.jpg");
+    background-size: cover;
+}
+
+.col-main-content {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.title-page {
+    padding-top: 30px;
+}
+
+.card-main {
+    min-height: 200px;
+}
+
+.researcher-text {
+    font-size: 12px;
+}
+
+.researcher-img {
+    height: 340px;
+}
+
+.card .researcher-img {
+    background-size: cover;
+}
+
+.researcher-img{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
 }
